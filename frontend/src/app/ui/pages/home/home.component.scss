@@ -1,0 +1,255 @@
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to right, #da4b3e, #ff7568);
+  /* Color rosa/naranja */
+  color: white;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: 100vh;
+
+  @media screen and (max-width: 1000px) {
+    gap: 0;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 880px) {
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 10px;
+
+    .card {
+      width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .card {
+      padding: 20px !important;
+    }
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px 40px;
+    width: 400px;
+    height: 500px;
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 80%;
+    }
+  }
+
+  .form-group {
+    .range-container {
+      display: flex;
+      align-items: center;
+
+      .range-value {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+        width: 80px;
+        cursor: default;
+      }
+    }
+  }
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  color: #444;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Estilos de los Sliders (input[type="range"]) */
+input[type="range"] {
+  width: 100%;
+  height: 8px;
+  /* Altura de la pista */
+  background: #e0e0e0;
+  /* Color de la pista por defecto */
+  border-radius: 5px;
+  -webkit-appearance: none;
+  /* Elimina estilos por defecto del navegador */
+  appearance: none;
+  outline: none;
+  /* Elimina el borde de enfoque por defecto */
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Estilos del "Pulgar" (thumb) del Slider */
+/* Para navegadores basados en Webkit (Chrome, Safari, Edge) */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  /* Tamaño del pulgar */
+  height: 20px;
+  /* Tamaño del pulgar */
+  border-radius: 50%;
+  /* Lo hace redondo */
+  background: #ff6f61;
+  /* Color rosa/naranja del pulgar */
+  cursor: pointer;
+  margin-top: -6px;
+  /* Ajusta la posición vertical del pulgar sobre la pista */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la "Pista" (track) del Slider cuando está rellenada (parte izquierda) */
+/* Esto requiere JavaScript para actualizar el color de la pista rellenada */
+/* Sin JS, solo podemos estilizar la pista completa. */
+/* Para un efecto de "progreso", se suele usar un fondo gradiente o JavaScript. */
+/* Aquí definimos un color base para la pista. */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #e0e0e0;
+  /* Color gris claro de la pista */
+  border-radius: 5px;
+  height: 8px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 8px;
+}
+
+input[type="range"]::-ms-track {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 8px;
+  /* Necesario para Edge/IE */
+  border-color: transparent;
+  color: transparent;
+}
+
+
+/* Estilos para el botón "CALCULAR NIVEL DE ESTRÉS" */
+.btn-primary {
+  background-color: #ff6f61;
+  /* Color rosa/naranja */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 25px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    background-color: #e55a50;
+  }
+}
+
+/* Estilos para la sección de Predicción */
+.prediction-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff6f61;
+  /* Color rosa/naranja para el valor principal */
+  margin: 20px 0;
+  text-align: center;
+}
+
+.prediction-value span {
+  font-size: 28px;
+  color: #666;
+}
+
+/* Barra de progreso de Nivel de Estrés (similar a un slider pero solo visual) */
+.stress-bar-container {
+  width: 100%;
+  height: 12px;
+  /* Altura de la barra */
+  background-color: #eee;
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  /* Asegura que la barra de progreso no se salga */
+}
+
+.stress-bar-fill {
+  height: 100%;
+  background: linear-gradient(to right, #ff1d09, #ff7568);
+  /* Gradiente de color */
+  border-radius: 6px;
+  width: 75%;
+  /* Ejemplo, esto se actualizará con JS */
+  transition: width 0.5s ease-in-out;
+}
+
+.decision-text {
+  font-size: 18px;
+  /* Color para el texto de decisión */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.bad-alert {
+  color: #ff6f61;
+}
+
+.good-alert {
+  color: #48bb78;
+}
+
+/* Botón "CONSULTAR CON ESPECIALISTA" */
+.btn-secondary {
+  background-color: #4a5568;
+  /* Color gris oscuro */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    background-color: #2d3748;
+  }
+
+}
