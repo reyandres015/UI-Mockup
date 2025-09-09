@@ -48,12 +48,14 @@ header {
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 20px 40px;
     width: 400px;
-    height: 500px;
 
     .card-content {
       display: flex;
@@ -64,6 +66,14 @@ header {
   }
 
   .form-group {
+    .fecha {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
     .range-container {
       display: flex;
       align-items: center;

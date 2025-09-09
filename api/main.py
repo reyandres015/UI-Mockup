@@ -16,18 +16,19 @@ app.add_middleware(
     allow_methods=["*"],  # Permitir todos los métodos (POST, GET, etc.)
     allow_headers=["*"],  # Permitir todos los headers
 )
+# -- Simulación del modelo de predicción de ventas basado en la fecha --
+# Supongamos que la fecha es representada como un número flotante (por ejemplo, timestamp o día del año)
+# Generamos datos sintéticos: la venta aumenta con el tiempo y tiene algo de estacionalidad y ruido
 
-
-# -- Simulación del modelo de Regresión Lineal --
-# Se simula un modelo que usa duración del sueño, nivel de ejercicio y presión arterial.
-# Un nivel de estrés más alto podría estar asociado con menos sueño, menos ejercicio o presión arterial
 np.random.seed(42)
-# [duración_sueño, nivel_ejercicio, presión_arterial]
-X_stress = np.random.rand(100, 3) * [5, 10, 50]
-y_stress = 10 - (X_stress[:, 0] * 1.5) + (X_stress[:, 1]
-                                          * 0.5) + (X_stress[:, 2] * 0.1) + np.random.randn(100)
+# Simulamos 365 días
+fechas = np.linspace(1, 365, 365).reshape(-1, 1)
+# Ventas simuladas: tendencia creciente + estacionalidad + ruido
+ventas = 100 + 0.5 * fechas.flatten() + 20 * np.sin(2 * np.pi *
+                                                    fechas.flatten() / 365) + np.random.randn(365) * 5
+
 model = LinearRegression()
-model.fit(X_stress, y_stress)
+model.fit(fechas, ventas)
 
 
 @app.get("/")
@@ -46,52 +47,26 @@ class APIResponse(BaseModel):
 
 
 class State(BaseModel):
-    sleep_duration: float
-    exercise_level: int
-    blood_pressure: int
+    day_of_year: float
 
 
 @app.post("/predict")
 def predict_and_decide(state: State):
     """
-    Endpoint que predice el nivel de estrés y determina la acción del sistema.
+    Endpoint que predice las ventas en función de la fecha proporcionada.
     """
     # Preparar los datos de entrada para el modelo
-    input_features = np.array(
-        [[state.sleep_duration, state.exercise_level, state.blood_pressure]])
+    input_features = np.array([[state.day_of_year]])
 
     # Realizar la predicción
     prediction = model.predict(input_features)[0]
-
-    # Asegurar que la predicción esté en un rango lógico (ej. 1 a 10)
-    predicted_stress_level = max(1, min(10, prediction))
-
-    # -- Lógica del flujo de decisión --
-    threshold = 7.0
-    is_high_stress = True if predicted_stress_level > threshold else False
-    decision_action = (f"El nivel de estrés estimado es de {predicted_stress_level:.2f}. "
-                       f"{'⚠ ¡Nivel Alto! Se recomienda consulta con un especialista.' if is_high_stress else '✅ Nivel Normal. Se sugiere monitoreo y hábitos saludables.'}")
 
     # Devolver la respuesta
     return APIResponse(
         code=200,
         status="success",
-        message="Predicción realizada con éxito.",
+        message="Predicción de ventas realizada con éxito.",
         data={
-            "predicted_stress_level": predicted_stress_level,
-            "is_high_stress": is_high_stress,
-            "decision_action": decision_action
+            "predicted_sales": prediction
         }
-    )
-
-
-@app.get("/consult_specialist")
-def consult_specialist():
-    """
-    Endpoint que simula la derivación a un especialista.
-    """
-    return APIResponse(
-        code=200,
-        status="success",
-        message="✔ ¡Se ha notificado al especialista para seguimiento!"
     )
