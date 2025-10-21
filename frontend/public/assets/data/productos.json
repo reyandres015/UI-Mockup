@@ -1,0 +1,8752 @@
+[
+  {
+    "id": 1,
+    "nombre": "Producto 1",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1128,
+    "volumen": 457,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 481
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 403
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 542
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 506
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 384
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 377
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Producto 2",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1479,
+    "volumen": 215,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 175
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 175
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Producto 3",
+    "categoria": "Alimentos",
+    "cluster": 2,
+    "precio": 1055,
+    "volumen": 206,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 180
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 194
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 169
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 242
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Producto 4",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1383,
+    "volumen": 270,
+    "margen": 0.35,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 295
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 296
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 298
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 309
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Producto 5",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 1039,
+    "volumen": 153,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 123
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 129
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 176
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 126
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 173
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Producto 6",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1394,
+    "volumen": 250,
+    "margen": 0.31,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 275
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 274
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 289
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 288
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Producto 7",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 983,
+    "volumen": 204,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 198
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 169
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 184
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Producto 8",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1481,
+    "volumen": 251,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 254
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 249
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 276
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 299
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Producto 9",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1127,
+    "volumen": 472,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 412
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 518
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 515
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 399
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 481
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Producto 10",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1278,
+    "volumen": 441,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 517
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 455
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 403
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 373
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 433
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Producto 11",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 990,
+    "volumen": 229,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 186
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 187
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 198
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Producto 12",
+    "categoria": "Alimentos",
+    "cluster": 2,
+    "precio": 1007,
+    "volumen": 297,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 324
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 263
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 297
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Producto 13",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1136,
+    "volumen": 447,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 360
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 383
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 528
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 476
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 480
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 388
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Producto 14",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 1097,
+    "volumen": 223,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 188
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 201
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 189
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 197
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Producto 15",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 1023,
+    "volumen": 196,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 190
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 220
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 164
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 163
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 205
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Producto 16",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 938,
+    "volumen": 201,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 162
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 206
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 235
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 212
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Producto 17",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1498,
+    "volumen": 205,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 223
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 234
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Producto 18",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1329,
+    "volumen": 281,
+    "margen": 0.31,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 295
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 267
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 331
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 270
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 307
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 304
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Producto 19",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 1029,
+    "volumen": 246,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 221
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 282
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 197
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 278
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 227
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Producto 20",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 988,
+    "volumen": 297,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 300
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 295
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 313
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 348
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "Producto 21",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1418,
+    "volumen": 236,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 216
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 220
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 216
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 195
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Producto 22",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1177,
+    "volumen": 427,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 377
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 506
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 452
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 401
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 373
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 428
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "Producto 23",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1213,
+    "volumen": 467,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 543
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 479
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 474
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 533
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 410
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 499
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Producto 24",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1285,
+    "volumen": 287,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 320
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 326
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 276
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 260
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "Producto 25",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1235,
+    "volumen": 448,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 510
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 406
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 536
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 465
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 374
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Producto 26",
+    "categoria": "Electrónica",
+    "cluster": 0,
+    "precio": 1272,
+    "volumen": 588,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 598
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 581
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 493
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 476
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 662
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 680
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "Producto 27",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 936,
+    "volumen": 234,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 262
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 197
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "Producto 28",
+    "categoria": "Alimentos",
+    "cluster": 0,
+    "precio": 1177,
+    "volumen": 412,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 340
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 479
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 364
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 412
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 343
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 429
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "Producto 29",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 931,
+    "volumen": 284,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 315
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 293
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 252
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "Producto 30",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1277,
+    "volumen": 237,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 256
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 203
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 246
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 262
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "nombre": "Producto 31",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1307,
+    "volumen": 258,
+    "margen": 0.31,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 246
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 279
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 275
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 218
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "nombre": "Producto 32",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1004,
+    "volumen": 403,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 464
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 482
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 435
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 364
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 479
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 440
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "nombre": "Producto 33",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1283,
+    "volumen": 239,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 194
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nombre": "Producto 34",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1060,
+    "volumen": 401,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 400
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 373
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 386
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 433
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 368
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 433
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "nombre": "Producto 35",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1305,
+    "volumen": 280,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 333
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 275
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 284
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "nombre": "Producto 36",
+    "categoria": "Electrónica",
+    "cluster": 0,
+    "precio": 1145,
+    "volumen": 467,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 543
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 519
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 424
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 447
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 456
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 405
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "nombre": "Producto 37",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1038,
+    "volumen": 599,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 578
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 550
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 496
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 559
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 591
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 671
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nombre": "Producto 38",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 934,
+    "volumen": 173,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 154
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 154
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 192
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 150
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "nombre": "Producto 39",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1145,
+    "volumen": 404,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 384
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 444
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 416
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 414
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 339
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 365
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "nombre": "Producto 40",
+    "categoria": "Electrónica",
+    "cluster": 0,
+    "precio": 1077,
+    "volumen": 501,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 444
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 565
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 479
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 409
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 530
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 540
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "nombre": "Producto 41",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1475,
+    "volumen": 262,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 302
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 305
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nombre": "Producto 42",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1385,
+    "volumen": 254,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 234
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 290
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 251
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 282
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 220
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nombre": "Producto 43",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1325,
+    "volumen": 258,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 244
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 249
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 239
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "nombre": "Producto 44",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1053,
+    "volumen": 484,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 473
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 508
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 488
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 467
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 567
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "nombre": "Producto 45",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1004,
+    "volumen": 596,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 577
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 599
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 553
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 531
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 665
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 539
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "nombre": "Producto 46",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1021,
+    "volumen": 553,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 652
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 457
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 627
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 642
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 531
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 606
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "nombre": "Producto 47",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1308,
+    "volumen": 227,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 188
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 239
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "Producto 48",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 989,
+    "volumen": 171,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 162
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 156
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 147
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 147
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 192
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "Producto 49",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1100,
+    "volumen": 490,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 562
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 578
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 504
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 462
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 555
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 496
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "Producto 50",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1056,
+    "volumen": 483,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 408
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 433
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 460
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 579
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 497
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 499
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "nombre": "Producto 51",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1030,
+    "volumen": 596,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 518
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 713
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 613
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 674
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 643
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 478
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "nombre": "Producto 52",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1365,
+    "volumen": 210,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 190
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 172
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 173
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "nombre": "Producto 53",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1437,
+    "volumen": 242,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 229
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 244
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 231
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "nombre": "Producto 54",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 945,
+    "volumen": 278,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 226
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 236
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 265
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "nombre": "Producto 55",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1216,
+    "volumen": 499,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 450
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 541
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 592
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 444
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 407
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 518
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "nombre": "Producto 56",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1238,
+    "volumen": 507,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 412
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 547
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 574
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 550
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 574
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 557
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "nombre": "Producto 57",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1383,
+    "volumen": 511,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 581
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 482
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 505
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 431
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 509
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 411
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "nombre": "Producto 58",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1315,
+    "volumen": 499,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 515
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 559
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 403
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 465
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 401
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "nombre": "Producto 59",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1419,
+    "volumen": 289,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 313
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 316
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 251
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 314
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 286
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "nombre": "Producto 60",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1326,
+    "volumen": 289,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 299
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 274
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 344
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 264
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "Producto 61",
+    "categoria": "Alimentos",
+    "cluster": 0,
+    "precio": 1231,
+    "volumen": 450,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 493
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 398
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 479
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 448
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 482
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 369
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "Producto 62",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1056,
+    "volumen": 545,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 501
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 441
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 495
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 624
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 640
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 445
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "nombre": "Producto 63",
+    "categoria": "Alimentos",
+    "cluster": 0,
+    "precio": 1041,
+    "volumen": 468,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 559
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 419
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 378
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 391
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 384
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 418
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "nombre": "Producto 64",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1243,
+    "volumen": 222,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 184
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 206
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 198
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "nombre": "Producto 65",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1265,
+    "volumen": 297,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 311
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 244
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 320
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 315
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 318
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "nombre": "Producto 66",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1361,
+    "volumen": 501,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 546
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 577
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 512
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 560
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 448
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 536
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "nombre": "Producto 67",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1274,
+    "volumen": 481,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 505
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 409
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 505
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 522
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 533
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 494
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "nombre": "Producto 68",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1462,
+    "volumen": 245,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 279
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 243
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "nombre": "Producto 69",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1084,
+    "volumen": 427,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 413
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 505
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 507
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 382
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 479
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "nombre": "Producto 70",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1489,
+    "volumen": 286,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 311
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 315
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 263
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 234
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 318
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "nombre": "Producto 71",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 925,
+    "volumen": 204,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 183
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 163
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 169
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "nombre": "Producto 72",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1345,
+    "volumen": 588,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 610
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 695
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 659
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 672
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 675
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "nombre": "Producto 73",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1225,
+    "volumen": 477,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 499
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 456
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 459
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 477
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 447
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 399
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "nombre": "Producto 74",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1400,
+    "volumen": 237,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 225
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 266
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 276
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "nombre": "Producto 75",
+    "categoria": "Automotriz",
+    "cluster": 1,
+    "precio": 1469,
+    "volumen": 287,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 294
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 258
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 291
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "nombre": "Producto 76",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 1069,
+    "volumen": 178,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 187
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 155
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 213
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "nombre": "Producto 77",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1256,
+    "volumen": 528,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 585
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 590
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 559
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 555
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 452
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 455
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "nombre": "Producto 78",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1427,
+    "volumen": 281,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 336
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 303
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "nombre": "Producto 79",
+    "categoria": "Alimentos",
+    "cluster": 2,
+    "precio": 1038,
+    "volumen": 260,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 263
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 294
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 237
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "nombre": "Producto 80",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1238,
+    "volumen": 270,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 236
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 276
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 269
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 233
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "nombre": "Producto 81",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1189,
+    "volumen": 464,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 427
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 499
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 384
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 402
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 459
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 490
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "nombre": "Producto 82",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 1087,
+    "volumen": 291,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 267
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 318
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 347
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 339
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "nombre": "Producto 83",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1221,
+    "volumen": 564,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 492
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 451
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 560
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 576
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 465
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 608
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "nombre": "Producto 84",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1351,
+    "volumen": 203,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 166
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 166
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 216
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "nombre": "Producto 85",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1006,
+    "volumen": 463,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 521
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 378
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 463
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 413
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 483
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 415
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "nombre": "Producto 86",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 992,
+    "volumen": 270,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 320
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 289
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 235
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 264
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "nombre": "Producto 87",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 943,
+    "volumen": 179,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 163
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 151
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 176
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 205
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 165
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 180
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "nombre": "Producto 88",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1210,
+    "volumen": 516,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 420
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 584
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 442
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 470
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 488
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 580
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "nombre": "Producto 89",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 906,
+    "volumen": 273,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 316
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 249
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "nombre": "Producto 90",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 912,
+    "volumen": 271,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 249
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 290
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 265
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "nombre": "Producto 91",
+    "categoria": "Alimentos",
+    "cluster": 2,
+    "precio": 983,
+    "volumen": 151,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 129
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 153
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 175
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 150
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 152
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 155
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "nombre": "Producto 92",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1398,
+    "volumen": 533,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 443
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 598
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 496
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 635
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 460
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 552
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "nombre": "Producto 93",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1003,
+    "volumen": 175,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 184
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 168
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 148
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 179
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "nombre": "Producto 94",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1269,
+    "volumen": 431,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 347
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 437
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 427
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 460
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 510
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 402
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "nombre": "Producto 95",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1040,
+    "volumen": 423,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 405
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 437
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 422
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 389
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "nombre": "Producto 96",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 1065,
+    "volumen": 227,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 190
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 250
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "nombre": "Producto 97",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1208,
+    "volumen": 518,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 487
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 565
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 416
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 472
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 474
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 558
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "nombre": "Producto 98",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 930,
+    "volumen": 292,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 273
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 272
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "nombre": "Producto 99",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1060,
+    "volumen": 446,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 472
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 521
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 386
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 529
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 411
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 387
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "nombre": "Producto 100",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 1015,
+    "volumen": 265,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 220
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 282
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 296
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 273
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "nombre": "Producto 101",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1055,
+    "volumen": 490,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 508
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 467
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 414
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 516
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 505
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "nombre": "Producto 102",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1319,
+    "volumen": 277,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 234
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 328
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 329
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 328
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 312
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "nombre": "Producto 103",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 962,
+    "volumen": 190,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 167
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 158
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 153
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 169
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "nombre": "Producto 104",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1243,
+    "volumen": 253,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 257
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 267
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 262
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "nombre": "Producto 105",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1366,
+    "volumen": 244,
+    "margen": 0.35,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 266
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 266
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 283
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "nombre": "Producto 106",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1233,
+    "volumen": 261,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 307
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 229
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 287
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 244
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "nombre": "Producto 107",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1371,
+    "volumen": 455,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 471
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 536
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 387
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 525
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 521
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 425
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "nombre": "Producto 108",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1067,
+    "volumen": 275,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 324
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 304
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 278
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "nombre": "Producto 109",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 1098,
+    "volumen": 162,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 151
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 179
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 164
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 188
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 149
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 132
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "nombre": "Producto 110",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1413,
+    "volumen": 246,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 228
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 278
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "nombre": "Producto 111",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1016,
+    "volumen": 259,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 310
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 244
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 287
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 303
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "nombre": "Producto 112",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1261,
+    "volumen": 277,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 278
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 305
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 324
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 282
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "nombre": "Producto 113",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 1088,
+    "volumen": 226,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 262
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 192
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 234
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "nombre": "Producto 114",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1472,
+    "volumen": 296,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 257
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 250
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 274
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "nombre": "Producto 115",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 998,
+    "volumen": 193,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 198
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 164
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 159
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 170
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "nombre": "Producto 116",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1082,
+    "volumen": 599,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 623
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 584
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 677
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 597
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 657
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 591
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "nombre": "Producto 117",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1382,
+    "volumen": 421,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 358
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 445
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 495
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 442
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 424
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 381
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "nombre": "Producto 118",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1336,
+    "volumen": 216,
+    "margen": 0.35,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 180
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 183
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 186
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 191
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "nombre": "Producto 119",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 1022,
+    "volumen": 201,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 208
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 194
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 165
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 191
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "nombre": "Producto 120",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 1009,
+    "volumen": 296,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 336
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 351
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 320
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 351
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 313
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "nombre": "Producto 121",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1114,
+    "volumen": 444,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 520
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 515
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 446
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 431
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 410
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 447
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "nombre": "Producto 122",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 1020,
+    "volumen": 219,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 220
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 254
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "nombre": "Producto 123",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1100,
+    "volumen": 450,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 489
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 364
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 511
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 422
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 456
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 374
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "nombre": "Producto 124",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1076,
+    "volumen": 439,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 491
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 428
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 444
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 489
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 443
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 376
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "nombre": "Producto 125",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1184,
+    "volumen": 552,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 567
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 558
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 619
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 452
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 630
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "nombre": "Producto 126",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 1045,
+    "volumen": 210,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 234
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 211
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "nombre": "Producto 127",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1265,
+    "volumen": 443,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 440
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 491
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 478
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 480
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 501
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 450
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "nombre": "Producto 128",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 1031,
+    "volumen": 226,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 250
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 206
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 194
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 190
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 265
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "nombre": "Producto 129",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1320,
+    "volumen": 494,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 511
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 425
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 526
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 538
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 428
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 523
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "nombre": "Producto 130",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1318,
+    "volumen": 455,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 530
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 529
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 364
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 436
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 400
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 381
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "nombre": "Producto 131",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1006,
+    "volumen": 574,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 535
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 558
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 643
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 485
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 587
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 515
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "nombre": "Producto 132",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1102,
+    "volumen": 431,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 507
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 388
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 387
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 447
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 434
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 412
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "nombre": "Producto 133",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1063,
+    "volumen": 492,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 398
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 557
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 455
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 399
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 418
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 529
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "nombre": "Producto 134",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1303,
+    "volumen": 286,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 250
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 327
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 248
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "nombre": "Producto 135",
+    "categoria": "Electrónica",
+    "cluster": 0,
+    "precio": 1089,
+    "volumen": 426,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 371
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 509
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 423
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 408
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 472
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 412
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "nombre": "Producto 136",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 967,
+    "volumen": 216,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 201
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 214
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "nombre": "Producto 137",
+    "categoria": "Automotriz",
+    "cluster": 1,
+    "precio": 1485,
+    "volumen": 201,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 232
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 198
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 163
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 195
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "nombre": "Producto 138",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1350,
+    "volumen": 242,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 279
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 205
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "nombre": "Producto 139",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 950,
+    "volumen": 183,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 153
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 192
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 194
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 148
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "nombre": "Producto 140",
+    "categoria": "Electrónica",
+    "cluster": 0,
+    "precio": 1281,
+    "volumen": 579,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 493
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 490
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 685
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 558
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 678
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 593
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "nombre": "Producto 141",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 911,
+    "volumen": 269,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 225
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 296
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 313
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 228
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "nombre": "Producto 142",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1210,
+    "volumen": 258,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 249
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 208
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 225
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 269
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "nombre": "Producto 143",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1306,
+    "volumen": 252,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 301
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 278
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 274
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 264
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "nombre": "Producto 144",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1427,
+    "volumen": 207,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 200
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 198
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 179
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "nombre": "Producto 145",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1204,
+    "volumen": 486,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 516
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 579
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 513
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 491
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 553
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "nombre": "Producto 146",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1322,
+    "volumen": 450,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 421
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 417
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 519
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 485
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 398
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 405
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "nombre": "Producto 147",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1261,
+    "volumen": 561,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 540
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 541
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 526
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 539
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 547
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 454
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "nombre": "Producto 148",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1439,
+    "volumen": 219,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 204
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 181
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 181
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 255
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "nombre": "Producto 149",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1263,
+    "volumen": 248,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 204
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 238
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 290
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 245
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "nombre": "Producto 150",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1443,
+    "volumen": 283,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 311
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 299
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 279
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 302
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "nombre": "Producto 151",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 956,
+    "volumen": 218,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 220
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 251
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 184
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 206
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "nombre": "Producto 152",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1057,
+    "volumen": 400,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 370
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 456
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 468
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 375
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 478
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 384
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "nombre": "Producto 153",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 970,
+    "volumen": 158,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 144
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 161
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 168
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 179
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 184
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "nombre": "Producto 154",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1012,
+    "volumen": 467,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 414
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 468
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 462
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 533
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 432
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 505
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "nombre": "Producto 155",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1328,
+    "volumen": 268,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 244
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 316
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 303
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "nombre": "Producto 156",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1019,
+    "volumen": 494,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 425
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 583
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 574
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 585
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 445
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 415
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "nombre": "Producto 157",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 1096,
+    "volumen": 203,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 225
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 186
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 179
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 172
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 174
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "nombre": "Producto 158",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1339,
+    "volumen": 273,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 315
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 270
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 326
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "nombre": "Producto 159",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1022,
+    "volumen": 568,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 510
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 625
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 671
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 598
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 658
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 544
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "nombre": "Producto 160",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1453,
+    "volumen": 262,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 298
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 313
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 226
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "nombre": "Producto 161",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 952,
+    "volumen": 265,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 315
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 260
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 281
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 247
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "nombre": "Producto 162",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1040,
+    "volumen": 479,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 569
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 561
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 536
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 505
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 411
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 493
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "nombre": "Producto 163",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 1048,
+    "volumen": 162,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 130
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 162
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 189
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 176
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 148
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "nombre": "Producto 164",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1268,
+    "volumen": 202,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 166
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 192
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 241
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "nombre": "Producto 165",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 979,
+    "volumen": 196,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 224
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 204
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 175
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 221
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "nombre": "Producto 166",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1464,
+    "volumen": 265,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 251
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 269
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "nombre": "Producto 167",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 1047,
+    "volumen": 233,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 278
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 225
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 228
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "nombre": "Producto 168",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1338,
+    "volumen": 254,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 205
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 224
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "nombre": "Producto 169",
+    "categoria": "Alimentos",
+    "cluster": 0,
+    "precio": 1350,
+    "volumen": 589,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 526
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 683
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 648
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 631
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 692
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 563
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "nombre": "Producto 170",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1362,
+    "volumen": 282,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 314
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 331
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 316
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 311
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 233
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "nombre": "Producto 171",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1319,
+    "volumen": 226,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 221
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 225
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "nombre": "Producto 172",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1349,
+    "volumen": 259,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 266
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 212
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 292
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "nombre": "Producto 173",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1098,
+    "volumen": 282,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 270
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 331
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 262
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "nombre": "Producto 174",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 1083,
+    "volumen": 176,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 160
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 176
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 143
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 146
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 152
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "nombre": "Producto 175",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1455,
+    "volumen": 271,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 217
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 309
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 264
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 228
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "nombre": "Producto 176",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 1025,
+    "volumen": 176,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 167
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 200
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 181
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "nombre": "Producto 177",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 981,
+    "volumen": 253,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 293
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 295
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 279
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 272
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "nombre": "Producto 178",
+    "categoria": "Libros",
+    "cluster": 2,
+    "precio": 943,
+    "volumen": 285,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 257
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 282
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "nombre": "Producto 179",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 1047,
+    "volumen": 299,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 340
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 349
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 356
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 290
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "nombre": "Producto 180",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1367,
+    "volumen": 290,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 345
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 285
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 274
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 343
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 238
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "nombre": "Producto 181",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1356,
+    "volumen": 246,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 224
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 260
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 203
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 247
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 248
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "nombre": "Producto 182",
+    "categoria": "Automotriz",
+    "cluster": 0,
+    "precio": 1344,
+    "volumen": 408,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 326
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 327
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 374
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 474
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 377
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 416
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "nombre": "Producto 183",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1281,
+    "volumen": 286,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 250
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 281
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 306
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 340
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 247
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "nombre": "Producto 184",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1242,
+    "volumen": 464,
+    "margen": 0.25,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 385
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 426
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 423
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 457
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 546
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 485
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "nombre": "Producto 185",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1381,
+    "volumen": 420,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 452
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 375
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 433
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 380
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 405
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 364
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "nombre": "Producto 186",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 988,
+    "volumen": 229,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 224
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 203
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 273
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 257
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 247
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "nombre": "Producto 187",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1287,
+    "volumen": 516,
+    "margen": 0.24,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 562
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 493
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 510
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 500
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 455
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 429
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "nombre": "Producto 188",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 930,
+    "volumen": 265,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 299
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 268
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 310
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 276
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 234
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "nombre": "Producto 189",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1356,
+    "volumen": 207,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 178
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 216
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 181
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 226
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 200
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "nombre": "Producto 190",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1367,
+    "volumen": 264,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 237
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 236
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 223
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 295
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 236
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "nombre": "Producto 191",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 903,
+    "volumen": 185,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 214
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 180
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 177
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "nombre": "Producto 192",
+    "categoria": "Deportes",
+    "cluster": 0,
+    "precio": 1322,
+    "volumen": 590,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 634
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 550
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 514
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 675
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 670
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 652
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "nombre": "Producto 193",
+    "categoria": "Hogar",
+    "cluster": 0,
+    "precio": 1307,
+    "volumen": 541,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 602
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 544
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 580
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 645
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 532
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 637
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "nombre": "Producto 194",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1143,
+    "volumen": 472,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 432
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 385
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 558
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 443
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 405
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 456
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "nombre": "Producto 195",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1352,
+    "volumen": 527,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 614
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 522
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 466
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 593
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 608
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 501
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "nombre": "Producto 196",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1439,
+    "volumen": 238,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 239
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 233
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "nombre": "Producto 197",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1078,
+    "volumen": 202,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 200
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 180
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 224
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 230
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "nombre": "Producto 198",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1260,
+    "volumen": 245,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 252
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 223
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 215
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 200
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "nombre": "Producto 199",
+    "categoria": "Mascotas",
+    "cluster": 2,
+    "precio": 924,
+    "volumen": 271,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 301
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 301
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 294
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "nombre": "Producto 200",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 941,
+    "volumen": 173,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 139
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 202
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 141
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 170
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 148
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 156
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "nombre": "Producto 201",
+    "categoria": "Electrónica",
+    "cluster": 1,
+    "precio": 1382,
+    "volumen": 288,
+    "margen": 0.31,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 288
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 317
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 341
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 298
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "nombre": "Producto 202",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1048,
+    "volumen": 520,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 566
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 495
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 585
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 562
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 435
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "nombre": "Producto 203",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1408,
+    "volumen": 210,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 217
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 229
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 168
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 171
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 187
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "nombre": "Producto 204",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1468,
+    "volumen": 273,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 311
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 250
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 299
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 258
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "nombre": "Producto 205",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1327,
+    "volumen": 523,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 427
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 539
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 605
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 594
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 418
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 544
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "nombre": "Producto 206",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1442,
+    "volumen": 282,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 266
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 232
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 324
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 318
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 276
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 301
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "nombre": "Producto 207",
+    "categoria": "Automotriz",
+    "cluster": 2,
+    "precio": 1006,
+    "volumen": 205,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 171
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 198
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 209
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 239
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "nombre": "Producto 208",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1425,
+    "volumen": 232,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 208
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 188
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 232
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 272
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "nombre": "Producto 209",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 1009,
+    "volumen": 190,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 157
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 161
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 176
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 177
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 190
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "nombre": "Producto 210",
+    "categoria": "Libros",
+    "cluster": 0,
+    "precio": 1142,
+    "volumen": 509,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 564
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 608
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 541
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 551
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 578
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 486
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "nombre": "Producto 211",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1359,
+    "volumen": 228,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 207
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 186
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 259
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 249
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "nombre": "Producto 212",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1318,
+    "volumen": 284,
+    "margen": 0.35,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 232
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 307
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 249
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 315
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "nombre": "Producto 213",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1449,
+    "volumen": 292,
+    "margen": 0.3,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 258
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 267
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 274
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 297
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "nombre": "Producto 214",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 951,
+    "volumen": 198,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 184
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 228
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 193
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 178
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 163
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 217
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "nombre": "Producto 215",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1160,
+    "volumen": 438,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 490
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 417
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 446
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 450
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 510
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 482
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "nombre": "Producto 216",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1003,
+    "volumen": 525,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 548
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 487
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 512
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 531
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 590
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "nombre": "Producto 217",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1347,
+    "volumen": 269,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 236
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 277
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 278
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "nombre": "Producto 218",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1138,
+    "volumen": 542,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 553
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 628
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 434
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 489
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 457
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 457
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "nombre": "Producto 219",
+    "categoria": "Libros",
+    "cluster": 1,
+    "precio": 1253,
+    "volumen": 262,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 216
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 263
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 299
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "nombre": "Producto 220",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1227,
+    "volumen": 208,
+    "margen": 0.28,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 201
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 166
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 169
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 192
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "nombre": "Producto 221",
+    "categoria": "Hogar",
+    "cluster": 2,
+    "precio": 972,
+    "volumen": 280,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 331
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 241
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 267
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 284
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 251
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "nombre": "Producto 222",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1302,
+    "volumen": 449,
+    "margen": 0.2,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 534
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 398
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 421
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 516
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 459
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 502
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "nombre": "Producto 223",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 997,
+    "volumen": 191,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 178
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 219
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 168
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 195
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 215
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "nombre": "Producto 224",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1340,
+    "volumen": 505,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 509
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 452
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 423
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 570
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 539
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "nombre": "Producto 225",
+    "categoria": "Belleza",
+    "cluster": 1,
+    "precio": 1205,
+    "volumen": 218,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 223
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 230
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 255
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 223
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 217
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "nombre": "Producto 226",
+    "categoria": "Mascotas",
+    "cluster": 0,
+    "precio": 1137,
+    "volumen": 539,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 469
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 489
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 468
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 563
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 598
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 586
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "nombre": "Producto 227",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1242,
+    "volumen": 459,
+    "margen": 0.23,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 517
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 393
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 543
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 374
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 522
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 406
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "nombre": "Producto 228",
+    "categoria": "Mascotas",
+    "cluster": 1,
+    "precio": 1386,
+    "volumen": 231,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 270
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 184
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 224
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 196
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 206
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "nombre": "Producto 229",
+    "categoria": "Automotriz",
+    "cluster": 1,
+    "precio": 1342,
+    "volumen": 295,
+    "margen": 0.33,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 310
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 351
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 342
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 258
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 283
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 288
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "nombre": "Producto 230",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 1031,
+    "volumen": 275,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 246
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 312
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 228
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 299
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "nombre": "Producto 231",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1270,
+    "volumen": 475,
+    "margen": 0.22,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 476
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 481
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 382
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 380
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 458
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 457
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "nombre": "Producto 232",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1282,
+    "volumen": 298,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 292
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 345
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 308
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 352
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 280
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 340
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "nombre": "Producto 233",
+    "categoria": "Electrónica",
+    "cluster": 2,
+    "precio": 1017,
+    "volumen": 287,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 234
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 319
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 298
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 281
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 289
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 317
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "nombre": "Producto 234",
+    "categoria": "Alimentos",
+    "cluster": 1,
+    "precio": 1452,
+    "volumen": 206,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 233
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 165
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 210
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 191
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 171
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 240
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "nombre": "Producto 235",
+    "categoria": "Juguetes",
+    "cluster": 1,
+    "precio": 1363,
+    "volumen": 272,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 242
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 261
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 264
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 293
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "nombre": "Producto 236",
+    "categoria": "Ropa",
+    "cluster": 1,
+    "precio": 1423,
+    "volumen": 286,
+    "margen": 0.32,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 282
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 341
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 326
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 309
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 293
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 239
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "nombre": "Producto 237",
+    "categoria": "Belleza",
+    "cluster": 2,
+    "precio": 935,
+    "volumen": 209,
+    "margen": 0.12,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 206
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 240
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 173
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 231
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 187
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 192
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "nombre": "Producto 238",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 941,
+    "volumen": 150,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 174
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 162
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 167
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 138
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 123
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 169
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "nombre": "Producto 239",
+    "categoria": "Hogar",
+    "cluster": 1,
+    "precio": 1355,
+    "volumen": 236,
+    "margen": 0.29,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 211
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 245
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 199
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 200
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 238
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "nombre": "Producto 240",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1158,
+    "volumen": 404,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 478
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 335
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 346
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 339
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 458
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 366
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "nombre": "Producto 241",
+    "categoria": "Juguetes",
+    "cluster": 0,
+    "precio": 1223,
+    "volumen": 505,
+    "margen": 0.27,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 517
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 540
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 423
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 477
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 515
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 560
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "nombre": "Producto 242",
+    "categoria": "Ropa",
+    "cluster": 2,
+    "precio": 951,
+    "volumen": 286,
+    "margen": 0.15,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 275
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 275
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 304
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 340
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 323
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 299
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "nombre": "Producto 243",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 926,
+    "volumen": 165,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 154
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 141
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 182
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 181
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 137
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 133
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "nombre": "Producto 244",
+    "categoria": "Deportes",
+    "cluster": 2,
+    "precio": 1064,
+    "volumen": 295,
+    "margen": 0.14,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 243
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 285
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 271
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 291
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 306
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "nombre": "Producto 245",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 962,
+    "volumen": 251,
+    "margen": 0.1,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 297
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 300
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 235
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 243
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "nombre": "Producto 246",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 1075,
+    "volumen": 275,
+    "margen": 0.13,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 248
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 304
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 253
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 324
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 227
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 222
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "nombre": "Producto 247",
+    "categoria": "Ropa",
+    "cluster": 0,
+    "precio": 1096,
+    "volumen": 521,
+    "margen": 0.21,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 607
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 561
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 454
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 514
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 503
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 574
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "nombre": "Producto 248",
+    "categoria": "Juguetes",
+    "cluster": 2,
+    "precio": 983,
+    "volumen": 256,
+    "margen": 0.11,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 218
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 265
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 222
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 296
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 303
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 212
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "nombre": "Producto 249",
+    "categoria": "Belleza",
+    "cluster": 0,
+    "precio": 1006,
+    "volumen": 593,
+    "margen": 0.26,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 693
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 541
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 627
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 654
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 553
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 478
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "nombre": "Producto 250",
+    "categoria": "Deportes",
+    "cluster": 1,
+    "precio": 1225,
+    "volumen": 246,
+    "margen": 0.34,
+    "ventas": [
+      {
+        "fecha": "2025-01-01",
+        "valor": 208
+      },
+      {
+        "fecha": "2025-02-01",
+        "valor": 213
+      },
+      {
+        "fecha": "2025-03-01",
+        "valor": 286
+      },
+      {
+        "fecha": "2025-04-01",
+        "valor": 232
+      },
+      {
+        "fecha": "2025-05-01",
+        "valor": 294
+      },
+      {
+        "fecha": "2025-06-01",
+        "valor": 273
+      }
+    ]
+  }
+]

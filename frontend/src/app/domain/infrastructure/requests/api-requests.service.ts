@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { StateUser } from '../models/stateUser.interface';
+import { StateUser } from '../../models/stateUser.interface';
 
 @Injectable({
   providedIn: 'root'

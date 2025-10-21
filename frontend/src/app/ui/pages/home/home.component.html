@@ -5,20 +5,61 @@
   <section class="content-group">
     <div class="card">
       <div>
-        <h2>Ingreso de datos</h2>
-        <form class="card-content" action="" [formGroup]="form" (ngSubmit)="onSubmit()">
-          <div class="form-group">
-            <label for="fecha">Fecha a predecir:</label>
-            <input class="form-control fecha" id="fecha" type="date" formControlName="fecha">
+        <h2>Filters</h2>
+        <!-- Filtros -->
+        <div class="filters">
+          <div class="filter-group">
+            <label for="cluster-filter">Cluster:</label>
+            <select [(ngModel)]="clusterFilter" (change)="applyFilters()" name="cluster-filter" id="cluster-filter">
+              <option value="all">All</option>
+              <option value="0">Cluster 0</option>
+              <option value="1">Cluster 1</option>
+              <option value="2">Cluster 2</option>
+            </select>
           </div>
-          <button class="btn-primary" type="submit">CALCULAR VENTAS ESPERADAS</button>
-        </form>
+          <div class="filter-group">
+            <label for="category-filter">Categoría:</label>
+            <select [(ngModel)]="categoryFilter" (change)="applyFilters()" name="category-filter" id="category-filter">
+              <option value="all">All</option>
+              <option *ngFor="let categoria of categorias" [value]="categoria">{{ categoria }}</option>
+            </select>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2>Predicción del Sistema</h2>
-        <p>Número de ventas esperadas</p>
-        <span class="prediction-value">{{ predictionResult.predicted_sales | number:'1.0-0' }}</span>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="">
+          <h4>Total ventas</h4>
+          <br>
+          <p>${{ totalSales | number:'1.0-0' }}</p>
+        </div>
       </div>
+      <div class="card">
+        <div class="">
+          <h4>Margen promedio</h4>
+          <br>
+          <p>{{ averageMargin | number:'1.0-2' }}%</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="">
+          <h4>Volumen</h4>
+          <br>
+          <p>{{ volume | number:'1.0-0' }} ventas</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="">
+          <h4>Ticket promedio</h4>
+          <br>
+          <p>${{ averageTicket | number:'1.0-0' }}</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Gráficas</h2>
+      <app-angular-charts [productos]="graphsData"></app-angular-charts>
     </div>
   </section>
 </main>

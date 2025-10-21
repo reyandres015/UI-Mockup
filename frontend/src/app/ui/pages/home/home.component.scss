@@ -1,10 +1,6 @@
 header {
-  position: absolute;
-  top: 0;
   width: 100%;
-  z-index: 1000;
   background: linear-gradient(to right, #da4b3e, #ff7568);
-  /* Color rosa/naranja */
   color: white;
   padding: 15px 30px;
   font-size: 24px;
@@ -12,14 +8,21 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 780px) {
+  .content-group {
+    height: auto !important;
+  }
+}
+
 .content-group {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 100px;
   background-color: #f8f8f8;
   padding: 20px;
-  height: 100vh;
+  min-height: 100vh;
 
   @media screen and (max-width: 1000px) {
     gap: 0;
@@ -55,7 +58,18 @@ header {
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 20px 40px;
-    width: 400px;
+
+    .filters {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+
+      .filter-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
 
     .card-content {
       display: flex;
@@ -64,30 +78,16 @@ header {
       height: 80%;
     }
   }
+}
 
-  .form-group {
-    .fecha {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 14px;
-    }
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 
-    .range-container {
-      display: flex;
-      align-items: center;
-
-      .range-value {
-        display: inline-block;
-        margin-left: 10px;
-        font-size: 14px;
-        text-align: center;
-        color: #666;
-        width: 80px;
-        cursor: default;
-      }
-    }
+  .card {
+    width: 230px;
   }
 }
 
@@ -262,4 +262,14 @@ input[type="range"]::-ms-track {
     background-color: #2d3748;
   }
 
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
 }
