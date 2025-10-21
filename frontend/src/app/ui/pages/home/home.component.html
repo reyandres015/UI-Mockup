@@ -40,6 +40,8 @@
           ? (predictionResult.predicted_stress_level | number:'1.2-2')
           : '-' }} / 10
         </span>
+        <img style="width: 100px;" src="ai-generative-traffic-signals-illustration-free-png.webp"
+          alt="">
         <div class="stress-bar-container">
           <div class="stress-bar-fill" [style.width.%]="predictionResult.predicted_stress_level * 10"></div>
         </div>
