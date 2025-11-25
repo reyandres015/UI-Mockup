@@ -1,0 +1,122 @@
+<div class="simulador-container">
+  <h2>📊 Simulador de Estrategia Comercial Integral</h2>
+  <p class="description">
+    Introduce las características del producto y la transacción para obtener una
+    predicción de riesgo (Supervisado) y una recomendación de precio (Refuerzo).
+  </p>
+
+  <form [formGroup]="simuladorForm" (ngSubmit)="simular()" class="data-form">
+
+    <fieldset>
+      <legend>💰 Datos de Transacción y Estrategia</legend>
+
+      <div class="form-group">
+        <label for="price">Precio del Producto (price):</label>
+        <input type="number" id="price" formControlName="price" required min="0.01" step="0.01">
+      </div>
+
+      <div class="form-group">
+        <label for="freight_value">Costo del Flete (freight_value):</label>
+        <input type="number" id="freight_value" formControlName="freight_value" required min="0" step="0.01">
+      </div>
+
+      <div class="form-group">
+        <label for="payment_value">Valor Total de Pago (payment_value):</label>
+        <input type="number" id="payment_value" formControlName="payment_value" required min="0.01" step="0.01">
+      </div>
+
+      <div class="form-group">
+        <label for="payment_installments">Cuotas de Pago (payment_installments):</label>
+        <input type="number" id="payment_installments" formControlName="payment_installments" required min="1" max="24">
+      </div>
+
+      <div class="form-group">
+        <label for="payment_sequential">Secuencia de Pago (payment_sequential):</label>
+        <input type="number" id="payment_sequential" formControlName="payment_sequential" required min="1">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>📦 Características Físicas y Descripción</legend>
+
+      <div class="form-group">
+        <label for="product_weight_g">Peso (gramos):</label>
+        <input type="number" id="product_weight_g" formControlName="product_weight_g" required min="1">
+      </div>
+
+      <div class="form-group">
+        <label for="product_photos_qty">Cantidad de Fotos:</label>
+        <input type="number" id="product_photos_qty" formControlName="product_photos_qty" required min="0">
+      </div>
+
+      <div class="form-group">
+        <label for="product_description_lenght">Longitud Descripción:</label>
+        <input type="number" id="product_description_lenght" formControlName="product_description_lenght" required
+          min="1">
+      </div>
+
+      <div class="form-group">
+        <label for="product_name_lenght">Longitud Nombre:</label>
+        <input type="number" id="product_name_lenght" formControlName="product_name_lenght" required min="1">
+      </div>
+
+      <div class="form-group">
+        <label for="product_length_cm">Largo (cm):</label>
+        <input type="number" id="product_length_cm" formControlName="product_length_cm" required min="1" step="0.1">
+      </div>
+
+      <div class="form-group">
+        <label for="product_height_cm">Alto (cm):</label>
+        <input type="number" id="product_height_cm" formControlName="product_height_cm" required min="1" step="0.1">
+      </div>
+
+      <div class="form-group">
+        <label for="product_width_cm">Ancho (cm):</label>
+        <input type="number" id="product_width_cm" formControlName="product_width_cm" required min="1" step="0.1">
+      </div>
+
+    </fieldset>
+
+    <button type="submit" [disabled]="cargando || simuladorForm.invalid" class="submit-button">
+      <span *ngIf="cargando">⚙️ Analizando modelos...</span>
+      <span *ngIf="!cargando">🚀 Obtener Análisis Integral</span>
+    </button>
+
+    <p *ngIf="simuladorForm.invalid && !cargando" class="validation-error">
+      Por favor, completa todos los campos para ejecutar la simulación.
+    </p>
+  </form>
+
+  <div *ngIf="error" class="error-message">
+    <h4>🚨 Error de Conexión</h4>
+    <p>{{ error }}</p>
+  </div>
+
+  <hr *ngIf="resultados.supervisado">
+
+  <div *ngIf="resultados.supervisado" class="results-container">
+    <h3>Resultados del Análisis Multimodelo</h3>
+
+    <div class="result-card supervisado">
+      <h4>🟢 1. Modelo Supervisado (Predicción de Riesgo)</h4>
+      <p class="result-label">Predicción de Riesgo:</p>
+      <p class="result-value">{{ resultados.supervisado.mensaje }}</p>
+    </div>
+
+    <div class="result-card no-supervisado">
+      <h4>🟣 2. Modelo No Supervisado (Segmento de Comportamiento)</h4>
+      <p class="result-label">Estado Asignado (Cluster):</p>
+      <p class="result-value">Estado N° {{ resultados.refuerzo.estado_cliente_id }}</p>
+      <p class="result-interpretation">Indica el grupo de clientes/productos al que pertenece esta transacción.</p>
+    </div>
+
+    <div class="result-card refuerzo">
+      <h4>🔴 3. Agente de Refuerzo (Recomendación de Precio)</h4>
+      <p class="result-label">Recomendación de Estrategia:</p>
+      <p class="result-value recommendation">{{ resultados.refuerzo.accion_recomendada }}</p>
+      <p class="result-interpretation">Con un Q-Value esperado de {{ resultados.refuerzo.recompensa_esperada | number:
+        '1.2-2' }}</p>
+    </div>
+  </div>
+</div>

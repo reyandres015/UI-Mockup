@@ -3,10 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AngularChartsComponent } from '../../angular-charts/angular-charts.component';
 import { HttpClient } from '@angular/common/http';
+import { SimuladorComponent } from '../../components/simulador/simulador.component';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, AngularChartsComponent, FormsModule],
+  imports: [CommonModule, AngularChartsComponent, FormsModule, SimuladorComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -72,7 +73,7 @@ export class HomeComponent implements OnInit {
 
     // Margen promedio
     const totalMargen = productos.reduce((sum, p) => sum + (p.margen || 0), 0);
-    this.averageMargin = productos.length ? (totalMargen / productos.length)*100 : 0;
+    this.averageMargin = productos.length ? (totalMargen / productos.length) * 100 : 0;
 
     // Volumen
     this.volume = productos.reduce((sum, p) => sum + (p.volumen || 0), 0);
